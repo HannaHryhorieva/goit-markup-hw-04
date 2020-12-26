@@ -164,6 +164,14 @@ li {
 .advantage-list .advantage-item:last-child {
   margin-right: 0;
 }
+.svg-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
 .advantage-title {
   font-size: 14px;
   line-height: 1.14;
@@ -228,6 +236,8 @@ li {
 .team-card {
   background-color: #ffffff;
   margin-right: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 .team-list .team-card:last-child {
@@ -247,14 +257,83 @@ li {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  margin: 10px 0 30px;
+  margin: 10px 0 16px;
   padding: 0;
+}
+.link-list {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 30px;
+  padding: 0;
+}
+.social-item {
+  margin-right: 10px;
+}
+.social-item:last-child {
+  margin-right: 0;
+}
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  background-color: var(--main-background-color);
+  border-radius: 50%;
+  fill: #afb1b8;
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: #2196f3;
+  fill: #ffffff;
+}
+/* постоянные клиенты */
+.client {
+  background-color: var(--main-background-color);
+  padding: 94px 0 94px 0;
+}
+.client-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin: 0 0 50px;
+}
+.client-list {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+.client-item {
+  margin-right: 30px;
+}
+.client-item:last-child {
+  margin-right: 0;
+}
+.client-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+}
+.client-link:hover,
+.client-link:focus {
+  border: 1px solid var(--accent-color);
+  fill: var(--accent-color);
 }
 
 /* футер */
 .footer {
   background-color: var(--second-background-color);
   padding: 60px 0;
+}
+.logo-adress {
+  margin: 0 70px 0 0;
 }
 .logo-footer {
   color: #ffffff;
@@ -292,6 +371,48 @@ li {
   margin-top: 9px;
   display: block;
 }
+.footer-cont {
+  display: flex;
+}
+.footer-social {
+  padding-top: 12px;
+}
+.footer-social-title {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: start;
+  margin: 0 0 20px;
+}
+.footer-social-list {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.footer-social-item {
+  margin-right: 10px;
+}
+.footer-social-item:last-child {
+  margin-right: 0;
+}
+.footer-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  fill: #ffffff;
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #2196f3;
+}
+
 /* Портфолио */
 .portfolio {
   background-color: var(--main-background-color);
